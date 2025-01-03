@@ -1,0 +1,42 @@
+# name: Night Owl
+# author: Erin Cochran <erin@cochran.dev>
+# description: Port of the Night Owl theme by Sarah Drasner for the Ghostty terminal emulator. Original https://github.com/sdras/night-owl-vscode-theme
+# license: MIT
+
+background = 011627
+foreground = d6deeb
+selection-background = 1d3b53
+selection-foreground = d6deeb
+cursor-color = 80a4c2
+
+# black
+palette = 0=#011627
+palette = 8=#7a8181
+
+# red
+palette = 1=#d3423e
+palette = 9=#f76e6e
+
+# green
+palette = 2=#2aa298
+palette = 10=#49d0c5
+
+# yellow
+palette = 3=#daaa01
+palette = 11=#dac26b
+
+# blue
+palette = 4=#4876d6
+palette = 12=#5ca7e4
+
+# magenta
+palette = 5=#403f53
+palette = 13=#697098
+
+# cyan
+palette = 6=#08916a
+palette = 14=#00c990
+
+# white
+palette = 7=#7a8181
+palette = 15=#989fb1
