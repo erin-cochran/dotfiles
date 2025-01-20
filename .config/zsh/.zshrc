@@ -29,3 +29,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # rbenv
 eval "$(rbenv init - --no-rehash zsh)"
+source $HOME/Code/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
