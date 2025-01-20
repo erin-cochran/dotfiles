@@ -10,7 +10,7 @@ ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 
 # Oh My ZSH plugins
-plugins=(git nvm)
+plugins=(git nvm zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -29,4 +29,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # rbenv
 eval "$(rbenv init - --no-rehash zsh)"
-source $HOME/Code/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
