@@ -10,7 +10,7 @@ ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 
 # Oh My ZSH plugins
-plugins=(git nvm zsh-syntax-highlighting)
+plugins=(git nvm zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -29,3 +29,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # rbenv
 eval "$(rbenv init - --no-rehash zsh)"
+
+# CTRL+y for zsh-autosuggestions
+bindkey '^y' autosuggest-accept
