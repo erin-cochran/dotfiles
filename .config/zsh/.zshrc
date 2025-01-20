@@ -32,3 +32,6 @@ eval "$(rbenv init - --no-rehash zsh)"
 
 # CTRL+y for zsh-autosuggestions
 bindkey '^y' autosuggest-accept
+
+# Thefuck  for command correction (https://github.com/nvbn/thefuck)
+eval $(thefuck --alias)
