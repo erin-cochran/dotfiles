@@ -12,6 +12,7 @@ ENABLE_CORRECTION="true"
 # Oh My ZSH plugins
 plugins=(git nvm zsh-syntax-highlighting zsh-autosuggestions)
 
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 source $ZSH/oh-my-zsh.sh
 
 # powerline
