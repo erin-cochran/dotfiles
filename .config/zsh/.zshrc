@@ -30,6 +30,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # rbenv
 eval "$(rbenv init - --no-rehash zsh)"
+export PATH="$HOME/.rbenv/shims:$PATH"
 
 # CTRL+y for zsh-autosuggestions
 bindkey '^y' autosuggest-accept
