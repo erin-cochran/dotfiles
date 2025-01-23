@@ -1,0 +1,7 @@
+set editor = "vim"
+color header brightblue black from:
+color header brightred black subject:
+color hdrdefault brightwhite black
+color quoted brightgreen black
+color status black cyan
+color indicator default green

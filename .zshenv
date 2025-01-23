@@ -20,10 +20,12 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export LANG="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
 
-# path
-export EDITOR="nvim"
-export TERMINAL="ghostty"
-export BROWSER="firefox-developer-edition"
+# default applications
+type "nvim" &>/dev/null && export EDITOR="nvim"
+type "ghostty" &>/dev/null && export TERMINAL="ghostty"
+type "firefox-developer-edition" &>/dev/null && export BROWSER="firefox-developer-edition"
+
+#look good and remain compatible
 export TERM="xterm-256color"
 
 # gpg
